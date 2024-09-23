@@ -1,0 +1,184 @@
+:root{
+    --main-color:#1d6efd;
+    --title-color: #fffffd;
+    --small:#9a9a9a;
+
+}
+
+
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/fonts/Rubik-ExtraBold.ttf);
+}
+@font-face{
+    font-family: SourceSans3;
+    src: url(../assets/fonts/SourceSans3-Regular.ttf);
+}
+h1{
+    font-family: Rubik;
+    color: var(--main-color);
+}
+
+titlename::after{
+    margin-bottom: 6px;
+    margin-top: 14px;
+    content: '';
+    display: flex;
+    justify-self: center;
+    background-color: var(--main-color);
+    height: 6px;
+    width: 64px;
+    display: flex;
+
+}
+.first{
+    background-color:var(--title-color);
+    width: 901px;
+
+}
+.nan{
+    width: 89%;
+}
+maintitle{
+    margin-left: 14px;
+    margin-top: 9px;
+    margin-bottom: 19px;
+
+}
+titlename{
+    margin-top: 16px;
+}
+sec{
+ height: fit-content;
+}
+ section form{
+    margin-top: 20px;
+    width: 48% ;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 20em;
+    height: 2.5em;
+    position: relative;
+   
+    }
+
+
+    .form-input{
+        position: absolute;
+        height: 50px;
+        width: 70%;
+        background:transparent;
+       border-color: var(--main-color);
+        border-radius: 0.5em;
+        outline: none;
+        color: black;
+        padding-left: 1em;
+        }
+        
+       
+        label {
+            position: absolute;
+            background: var(--title-color);
+            color: rgb(11, 1, 1);
+            font-weight: 600;
+            left: 5em;
+            top: 0.55em;
+            cursor: text;
+            transition: top 350ms ease-in, font-size 350ms ease-in;
+        }
+        
+        .form-input:hover {
+            border: 2px solid var(--main-color);
+        }
+        
+        .form-input:focus {
+            border: 2px solid var(--main-color);
+        }
+        
+        input:focus ~ label,
+        .form-input:not(:placeholder-shown):not(:focus) ~ label {
+            top: -0.5em;
+            font-size: 0.75rem;
+            padding: 0 0.125em;
+        }
+        
+        .form-input:focus ~ label {
+            color: var(--main-color); /* Change label color when input is in focus */
+        }
+        
+
+
+
+.one{
+    margin-bottom: 20px;
+   
+}
+.two{
+    margin-bottom: 24px;
+}
+circle{
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+icons{
+    width: 180px;
+    margin-top: 20px;
+}
+.fa-facebook{
+    height: 25px;
+}
+.fa-linkedin{
+    height: 25px;
+}
+.fa-google-plus-g{
+    height: 25px;
+}
+.bok p{
+    margin-bottom: 0 !important;
+    margin-left: 7px;
+}
+
+.last{
+    margin-top: 21px;
+    height: 51px;
+}
+ .last button{
+    height: 80%;
+    width: 56%;
+    border-radius: 32px;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.first p{
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .formB {
+      width: 90%; /* Adjust width for mobile */
+    }
+  
+    .circle {
+      height: 36px;
+      width: 36px;
+    }
+  
+    .container {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5rem; /* Smaller heading for mobile */
+    }
+  }
+  

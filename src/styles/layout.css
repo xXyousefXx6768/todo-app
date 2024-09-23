@@ -1,0 +1,60 @@
+:root{
+    --main:#0762da;
+    --whaite:#ffffff;
+}
+
+@font-face{
+
+    font-family:SourceSans3;
+    src: url(../assets/fonts/SourceSans3-Regular.ttf);
+}
+
+
+p{
+    font-family: SourceSans3;
+}
+
+
+second{
+    background-color: var(--main);
+    width: 465px;
+}
+
+
+
+ h2::after{
+    margin-top: 18px;
+    height: 5px;
+    display: flex;
+    content: '';
+    width: 52px;
+    background-color: var(--whaite);
+
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+info p{
+margin-bottom: 1px;
+}
+info{
+    margin-top: 7px;
+}
+.router{
+    margin-top: 40px;
+    height: 60px;
+    width: 286px;
+}
+ .router button{
+    border-radius: 9%;
+    border-color: #5538382b;
+    height: 71%;
+    background-color: var(--main);
+    width: 67%;
+}
+
+

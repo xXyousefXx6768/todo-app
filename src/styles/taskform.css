@@ -1,0 +1,90 @@
+.main{
+   
+    width: -webkit-fill-available;
+    height: 100vh;
+    background-color: #151518c4;
+    backdrop-filter: blur(3px);
+}
+
+.main p{
+    color: #62605dc9;
+    margin-bottom: 12px;
+}
+.popup-layout{
+    border-radius: 28px;
+    background-color:#262424;
+    animation: dropTop .3s linear;
+   
+}
+@keyframes dropTop {
+    0% {
+        transform: translateY(-100%) scale(0);
+        opacity: 0;
+        }
+        100% {
+        transform: translateY(0%) scale(1);
+        opacity: 1;
+        }
+}
+form input{
+    border-color: transparent;
+    border-radius: 9px;
+    background-color: #474747;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 6px;
+    
+   
+}
+.create{
+    margin-top: 26px;
+}
+input[type='date']{
+    margin-bottom: 54px;
+}
+.fa-xmark{
+    color: rgb(0, 0, 0);
+    height: 23px;
+}
+.big-b{
+    width: 100%;
+
+}
+.circle-can{
+    background-color: antiquewhite;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btns{
+    width: 100%;
+    margin-right: 18px;
+}
+.btns button{
+    border-radius: 10px;
+    border-color: transparent;
+    width: 113px;
+    height: 35px;
+    margin-left: 22px;
+    margin-bottom: 22px;
+    font-weight: 500;
+    color: antiquewhite;
+}
+.btns button:nth-child(1){
+ background-color: #34f31bb2;
+}
+.btns button:nth-child(2){
+  background-color: #ca0202c4;
+}
+input:focus{
+    border-color: transparent;
+}
+.popup-layout p{
+    color: aliceblue;
+    font-weight: 550;
+}
+.create{
+    font-size: 25px;
+}
